@@ -51,6 +51,10 @@ jobs:
           docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
 
 
+
+
+
+
       - name: Setup Kustomize
         uses: imranismail/setup-kustomize@v1
 
